@@ -1,0 +1,11 @@
+.venv/
+venv/
+env/
+.env
+
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+
+*.pyc
