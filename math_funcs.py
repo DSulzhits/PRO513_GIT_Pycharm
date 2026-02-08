@@ -2,6 +2,12 @@ def add(a, b):
     return a + b
 
 
+def divide(a, b):
+    if a != 0:
+        return a / b
+    raise ZeroDivisionError('На ноль делить нельзя.')
+
+
 def multiply(a, b):
     return a * b
 
